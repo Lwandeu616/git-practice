@@ -4,7 +4,7 @@ resource "aws_iam_access_key" "lb" {
 }
 
 resource "aws_iam_user" "lb" {
-  name = "loadbalancer"
+  name = "loadbalancer2"
   path = "/system/"
 }
 
